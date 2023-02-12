@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+ 
+    .navbar {
+        background-color: purple;
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .row.content {height: 450px}
+    
+    footer {
+      background-color: purple;
+      color: white;
+      padding: 15px;
+    }
+
+    p{text-align: right;}
+    
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">InsaneJobFinder</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+    <center>
+        <h1>Contact Us</h1>
+        <div class="form-group">
+            <label for="inputdefault">First Name</label>
+            <input class="form-control" id="inputdefault" type="text">
+        </div>
+        <div class="form-group">
+            <label for="inputdefault">Last Name</label>
+            <input class="form-control" id="inputdefault" type="text">
+        </div>
+        <div class="form-group">
+            <label for="inputdefault">Email</label>
+            <input class="form-control" id="inputdefault" type="text">
+        </div>
+        <div class="form-group">
+            <label for="sel1">Issue</label>
+            <select class="form-control" id="sel1">
+                <option>Reset Password</option>
+                <option>Forgot Username</option>
+                <option>Delete Account</option>
+                <option>Manage Subscription</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="inputlg">Optional Message</label>
+            <input class="form-control" id="inputlg" type="text">
+        </div>
+        <div class="container">
+            <button type="button" class="btn btn-default">Submit</button>
+        </div>
+    </center>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Copyright 2023</p>
+</footer>
+
+</body>
+</html>
